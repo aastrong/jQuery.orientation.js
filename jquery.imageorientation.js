@@ -1,15 +1,15 @@
 (function($) {
 	$.fn.orientation = function() {
 	    $(this).each(function() {
-		    var $image = $(this);
-		    if ($image.height() > $image.width()) {
-		        $image.addClass('portrait');
+		    var $item = $(this);
+		    if ($item.height() > $item.width()) {
+		        $item.addClass('portrait');
 		    }
-		    else if ($image.height() < $image.width()){
-		        $image.addClass('landscape');
+		    else if ($item.height() < $item.width()){
+		        $item.addClass('landscape');
 		    }
-		    else if ($image.height() == $image.width()){
-		        $image.addClass('square');
+		    else if ($item.height() == $item.width()){
+		        $item.addClass('square');
 		    }
 		    else{}
 		});

@@ -15,9 +15,10 @@ Simply add the orientation.js file to the bottom of your file, and intialize the
 I have included an index.html as page as an example if need be. 
 
 Any feedback is greatly apprciated. 
-
+```
                _                     
   __ _ __ _ __| |_ _ _ ___ _ _  __ _ 
  / _` / _` (_-|  _| '_/ _ | ' \/ _` |
  \__,_\__,_/__/\__|_| \___|_||_\__, |
                                |___/ 
+```
